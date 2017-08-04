@@ -12,7 +12,7 @@ int binarySearch(T arr[], int n, T target){
 	
 	int l = 0, r = n - 1;//[l...r]的范围里寻找target
 	while( l <= r){	//当 l == r 时，区间[l，r]依然是有效的
-		int mid = (1+r)/2;
+		int mid = l + （r-l）/2;//int mid = (l+r)/2;可能产生整型溢出
 		if(arr[mid] == target)
 			return mid;
 		if(target > arr[mid])
