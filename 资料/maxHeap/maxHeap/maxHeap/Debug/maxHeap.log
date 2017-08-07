@@ -1,0 +1,12 @@
+﻿  main.cpp
+h:\leetcode\leetcode\资料\maxheap\maxheap\maxheap\main.cpp(151): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+h:\leetcode\leetcode\资料\maxheap\maxheap\maxheap\main.cpp(138): warning C4018: “<”: 有符号/无符号不匹配
+  h:\leetcode\leetcode\资料\maxheap\maxheap\maxheap\main.cpp(133): note: 编译类 模板 成员函数“void MaxHeap<int>::putBranchInLine(std::string &,int,int)”时
+  h:\leetcode\leetcode\资料\maxheap\maxheap\maxheap\main.cpp(108): note: 参见对正在编译的函数 模板 实例化“void MaxHeap<int>::putBranchInLine(std::string &,int,int)”的引用
+  h:\leetcode\leetcode\资料\maxheap\maxheap\maxheap\main.cpp(148): note: 参见对正在编译的类 模板 实例化“MaxHeap<int>”的引用
+h:\leetcode\leetcode\资料\maxheap\maxheap\maxheap\main.cpp(140): warning C4018: “<”: 有符号/无符号不匹配
+h:\leetcode\leetcode\资料\maxheap\maxheap\maxheap\main.cpp(120): warning C4018: “<”: 有符号/无符号不匹配
+  h:\leetcode\leetcode\资料\maxheap\maxheap\maxheap\main.cpp(116): note: 编译类 模板 成员函数“void MaxHeap<int>::putNumberInLine(int,std::string &,int,int,bool)”时
+  h:\leetcode\leetcode\资料\maxheap\maxheap\maxheap\main.cpp(98): note: 参见对正在编译的函数 模板 实例化“void MaxHeap<int>::putNumberInLine(int,std::string &,int,int,bool)”的引用
+  maxHeap.vcxproj -> H:\leetcode\leetcode\资料\maxHeap\maxHeap\Debug\maxHeap.exe
+  maxHeap.vcxproj -> H:\leetcode\leetcode\资料\maxHeap\maxHeap\Debug\maxHeap.pdb (Full PDB)
