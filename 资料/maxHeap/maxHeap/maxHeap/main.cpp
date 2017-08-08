@@ -23,6 +23,20 @@ private:
 		}
 	}
 
+	void shiftDown(int k) {
+		while (2 * k <= count) 
+		{
+			int j = 2 * k;
+			if (j + 1 <= count && data[j + 1] > data[j])
+				j++;
+
+			if (data[k] >= data[j])
+				break;
+			swap(data[k], data[j]);
+			k = j;
+		}
+	}
+
 public:
 	//构造函数，构造一个空堆，可容纳capacity个元素
 	MaxHeap(int capacity) {
@@ -141,6 +155,18 @@ private:
 
 		line[offset_left + 1] = '/';
 		line[offset_right + 0] = '\\';
+	}
+
+	//从最大堆取出堆顶元素
+	Item extractMax() {
+		assert(count > 0);
+		Item ret = data[1];
+
+		swap(data[1], data[count]);
+		count--;
+		shiftDown(1);
+
+		return ret;
 	}
 };
 
