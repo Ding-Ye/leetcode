@@ -1,3 +1,4 @@
+//方法一：
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -17,3 +18,35 @@ public:
 		
     }
 };
+
+//方法二:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
